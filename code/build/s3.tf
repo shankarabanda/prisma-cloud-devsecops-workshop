@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "dev_s3" {
-  bucket_prefix = "raghav-dev-"
+  bucket_prefix = "raghav-dev-tfcloud"
 
   tags = {
     Environment          = "Dev"
